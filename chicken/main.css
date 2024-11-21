@@ -1,0 +1,283 @@
+/* decor */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-image: url(pic/cook.png);
+}
+
+h1{
+	background-color: coral;
+	margin: 30px;
+	border-radius: 60px;
+	font-size: 36px;
+}
+
+#topper{
+    justify-content: center;
+    text-align: center;
+}
+
+#topper img{
+	padding-bottom: 20px;
+    width: 35%;
+    border-radius: 60px;
+}
+
+#topper img:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+    border-radius: 0px;
+}
+
+#ingrlist{
+    display: flex;
+	padding-left: 5%;
+}
+
+#ingrlist h2{
+	padding-top: 20px;
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#ingrlist img{
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 5%;
+    border-radius: 60px;
+}
+
+#ingrlist img:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+    border-radius: 0px;
+}
+
+#ingrlist section{
+    font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#ingrlist li{
+    margin: 3px;
+	font-size: 20px;
+}
+
+#cook{
+	padding-left: 20px;
+	padding-left: 5%;
+}
+
+#cook h2{
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#cook a{
+    font-size: 20px;
+    padding: 20px;
+}
+
+#cook img{
+    width: 35%;
+    height: 100%;
+    border-radius: 60px;
+}
+
+#cook img:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+    border-radius: 0px;
+}
+
+#right h2{
+	text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#right img{
+    width: 80%;
+    border-radius: 60px;
+}
+
+#right img:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+    border-radius: 0px;
+}
+
+#cook nav{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.linkto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer h3{
+    font-size: 25px;
+    padding-top: 11px;
+	text-align: center;
+	height: 50px;
+}
+
+/* jorrrrrrrrrrrrrr */
+.grid-container {
+	display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 5px;
+	background: none;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+	background-color: rgba(250, 235, 215, 0.87);
+	border-radius: 60px;
+	margin: 5px;
+}
+
+#topper{
+	grid-column: 1 / span 3;
+	text-align: center;
+}
+
+#ingrlist{
+	grid-column: 1 / span 3;
+	text-align: left;
+}
+
+#right{
+	grid-column: 3 / span 1;
+	text-align: center;
+}
+
+#cook{
+	grid-column: 1 / span 2;
+	text-align: left;
+}
+
+#footer{
+	grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 20% auto 20%;
+		grid-template-rows: auto auto auto auto;
+		grid-gap: 5px;
+		background: none;
+	}
+	
+	.grid-container > div{
+		font-size: 17px;
+		background-color: rgba(250, 235, 215, 0.87);
+		border-radius: 60px;
+		margin: 5px;
+	}
+	
+	#topper{
+		grid-column: 1 / span 3;
+		text-align: center;
+	}
+	
+	#ingrlist{
+		grid-column: 1 / span 3;
+		text-align: left;
+	}
+	
+	#right{
+		grid-column: 3 / span 1;
+	}
+	
+	#cook{
+		grid-column: 1 / span 2;
+		text-align: left;
+	}
+	
+	#footer{
+		grid-column: 1 / span 3;
+	}
+
+	h2{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 20% auto 20%;
+		grid-template-rows: auto auto auto auto;
+		grid-gap: 5px;
+		background: none;
+	}
+	
+	.grid-container > div{
+		border: 1px solid black;
+		font-size: 20px;
+		background-color: rgba(250, 235, 215, 0.87);
+		border-radius: 60px;
+		margin: 5px;
+	}
+	
+	#topper{
+		grid-column: 1 / span 3;
+		text-align: center;
+	}
+	
+	#ingrlist{
+		grid-column: 1 / span 3;
+		text-align: left;
+		padding-left: 0px;
+	}
+
+	#ingrlist img{
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+	
+	#right{
+		grid-column: 1 / span 3;
+	}
+	
+	#cook{
+		grid-column: 1 / span 3;
+		text-align: left;
+	}
+	
+	#footer{
+		grid-column: 1 / span 3;
+	}
+
+	h1{
+		background-color: coral;
+		margin: 30px;
+		border-radius: 60px;
+		font-size: 24px;
+	}
+
+	#cook nav{
+		font-size: 17px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	#ingrlist li{
+		margin: 3px;
+		font-size: 17px;
+	}
+}

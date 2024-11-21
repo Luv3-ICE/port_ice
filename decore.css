@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'GrammaBold', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+    color: #444444;
+}
+
+@font-face {
+    font-family: 'GrammaBold';
+    src: url('font/GrammaBold.ttf') format('truetype'); 
+}
+
+/*Project*/
+#stkshow img{
+    width: 20%;
+    margin: 2%;
+}
+#stkbt{
+    width: 20%;
+    font-size: 1.4vw;
+}
+
+#sticker{
+    margin: 4%;
+}
+
+h1{
+    font-size: 3vw;
+    margin: 1%;
+}
+
+body{
+    background-color: #f3e2f5;
+}
+
+/*Main profile*/
+.aboutme{
+    display: flex;
+}
+
+.porfilepic{
+    margin: 1%;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: all 0.6s;
+}
+
+.porfilepic:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    border-radius: 0px;
+}
+
+.profile{
+    width: 60%;
+    margin: 3%;
+}
+
+.profile > li{
+    font-size: 1.8vw;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-size: 2.5vw;
+    margin-bottom: 4%;
+    width: 5%;
+}
+
+
+#kmutt :hover{
+    color: #D8B4F8;
+}
+
+#mdt :hover{
+    color: #D8B4F8;
+}
+/*Main profile*/
+
+/*Hobby*/
+#hobby{
+    margin-bottom: 2%;
+}
+
+.whatido{
+    margin: 4%;
+}
+
+#drawexam{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#myDrawPicdiv{
+    width: 30%;
+    margin-top: 2%;
+}
+#myDrawPicdiv > img{
+    width: 100%;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: all 0.6s;
+}
+
+#myDrawPicdiv :hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    border-radius: 0px;
+}
+
+#drawexam > button{
+    background: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 20px;
+}
+
+button > img{
+    width: 100%;
+}
+
+#left{
+    transform: rotate(180deg);
+}
+
+#arrLeft:hover{
+    box-shadow: 0px 0px 10px 10px rgba(44, 44, 44, 0.342);
+}
+
+#arrRight:hover{
+    box-shadow: 0px 0px 10px 10px rgba(44, 44, 44, 0.342);
+}
+
+#inhobby > hr{
+    margin-bottom: 2%;
+}
+
+#layer{
+    justify-content: space-between;
+    display: flex;
+}
+
+#layer > div{
+    width: 14%;
+}
+
+#layer img {
+    width: 100%;
+}
+
+#showgame{
+    border: none;
+    background: none;
+}
+
+#showgame:hover{
+    color: #D8B4F8;
+}
+/*Hobby*/
+
+/*talent*/
+.talentlist{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.talentlist > div{
+    text-align: center;
+    width: 17%;
+    margin: 0px 3% 0px 3%;
+}
+
+.ps img{
+    width: 70%;
+}
+
+.ai img{
+    width: 70%;
+}
+
+.pc img{
+    width: 70%;
+}
+
+.vs img{
+    width: 70%;
+}
+/*talent*/
+
+/*link*/
+.linkassign > div{
+    padding: 5%;
+}
+
+.linkassign :hover{
+    background-color: #D8B4F8;
+}
+/*link*/
+
+/*comment section*/
+#box{
+    text-align: left;
+    justify-content: left;
+}
+
+h3{
+    font-size: 1.2vw;
+}
+
+#box > h3{
+    margin-bottom: 15px;
+}
+
+.chapic{
+    width: 8%;
+}
+
+.align{
+    display: flex;
+    width: 90%;
+    align-items: start; 
+}
+
+.cmttext{
+    margin-left: 5%;
+    width: 80%;
+    white-space: pre-line;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+/*comment section*/
+
+/*Footer*/
+#make{
+    width: 50%;
+    margin: 2% 0px 0px 3%;
+    font-size: 1.8vw;
+}
+
+#contact{
+    width:50%;
+    list-style: none;   
+    display: flex;
+    justify-content: right;
+}
+
+#contact>li:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+
+#contact li {
+    width: 10%;
+    text-align: right;
+    margin: 2% 3% 2% 4%;
+    border-radius: 50px;
+    transform: scale(1);
+    transition: all 0.6s;
+}
+
+#fb img{
+    width: 100%;
+}
+#ig img{
+    width: 100%;
+}
+/*Footer*/
+
+/*jorrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+.grid-container {
+	display: grid;
+    grid-template-columns: 25% auto 20%;
+    grid-template-rows: auto auto auto auto;
+    /* grid-gap: 5px; */
+	background: none;
+    width: 80%;
+    margin: auto; 
+}
+
+.grid-container > div{
+    font-size: 1.4vw;
+	background-color: #CAEDFF;
+    border: 2px solid #D8B4F8;
+	margin: 2px;
+}
+
+.topper{
+	grid-column: 1 / span 3;
+	text-align: center;
+}
+
+.main{
+	grid-column: 1 / span 3;
+	text-align: left;
+}
+
+.hobby{
+    grid-column:2 / span 2;
+}
+
+.talent{
+    grid-column: 2 / span 2;
+    padding: 4%;
+}
+
+.linkassign{
+	grid-column: 1 / span 1;
+	text-align: left;
+    grid-row: 3 /span 1;
+    padding: 5%;
+}
+
+.commentbox{
+	grid-column: 2 / span 2;
+	text-align: center;
+    padding: 4%;
+}
+
+.footer{
+	grid-column: 1 / span 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: 25% auto 20%;
+        grid-template-rows: auto auto auto auto;
+        /* grid-gap: 5px; */
+        background: none;
+        width: 80%;
+        margin: auto; 
+    }
+
+    .grid-container > div{
+        background-color: #CAEDFF;
+        border: 2px solid #D8B4F8;
+        margin: 2px;
+    }
+
+    .topper{
+        grid-column: 1 / span 3;
+        text-align: center;
+    }
+
+    .main{
+        grid-column: 1 / span 3;
+        text-align: left;
+    }
+
+    .hobby{
+        grid-column:2 / span 2;
+    }
+
+    .linkassign{
+        grid-column: 1 / span 1;
+        text-align: left;
+        grid-row: 3 /span 1;
+        padding: 5%;
+    }
+
+    .footer{
+        grid-column: 1 / span 3;
+        display: flex;
+        justify-content: space-between;
+    }
+
+	h1{
+		margin: 30px;
+		border-radius: 60px;
+	}
+
+	#cook nav{
+		font-size: 17px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	#ingrlist li{
+		margin: 3px;
+		font-size: 17px;
+	}
+    h1{
+        background: none;
+        margin: 1%;
+    }
+    h2{
+        margin-bottom: 4%;
+    }
+    .porfilepic{
+        margin: 1%;
+        width: 40%;
+        height: 40%;
+    }
+    .profile > li{
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        /* grid-gap: 5px; */
+        background: none;
+        width: 100%;
+    }
+    
+    .grid-container > div{
+        background-color: #CAEDFF;
+        border: 2px solid #D8B4F8;
+        margin: 2px;
+    }
+    
+    .topper{
+        grid-column: 1 / span 1;
+        text-align: center;
+    }
+    
+    .main{
+        grid-column: 1 / span 1;
+        text-align: left;
+    }
+    
+    .hobby{
+        grid-column:1 / span 1;
+        grid-row: 3 /span 1;
+    }
+    
+    .linkassign{
+        grid-column: 1 / span 1;
+        grid-row: 4;
+        text-align: left;
+        padding: 5%;
+    }
+    .footer{
+        grid-column: 1 / span 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+	h1{
+		background-color: coral;
+		margin: 30px;
+		border-radius: 60px;
+		font-size: 6vw;
+	}
+
+	#cook nav{
+		font-size: 17px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	#ingrlist li{
+		margin: 3px;
+		font-size: 17px;
+	}
+    h1{
+        background: none;
+        margin: 1%;
+    }
+    h2{
+        font-size: 4.5vw;
+        margin-bottom: 4%;
+    }
+    .porfilepic{
+        margin: 1%;
+        width: 40%;
+        height: 40%;
+    }
+    .profile > li{
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    div a{
+        font-size: 4vw;
+    }
+    #contact li{
+        margin-top: 5%;
+        width: 20%;
+    }
+    #make{
+        font-size: 6vw;
+    }
+    #inhobby li{
+        font-size: 3vw;
+    }
+
+    #stkbt{
+        width: 30%;
+        font-size: 4vw;
+    }
+    
+    #sticker{
+        margin: 4%;
+    }
+    #sticker h2{
+        font-size: 5vw;
+    }
+    #sticker div{
+        font-size: 4vw;
+    }
+}

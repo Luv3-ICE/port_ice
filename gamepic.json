@@ -1,0 +1,17 @@
+{
+    "game1":{
+        "pic":"pic/game1.png"
+    },
+    "game2":{
+        "pic":"pic/game2.jpg"
+    },
+    "game3":{
+        "pic":"pic/dota2.png"
+    },
+    "game4":{
+        "pic":"pic/apex.png"
+    },
+    "game5":{
+        "pic":"pic/brawlhalla.png"
+    }
+}

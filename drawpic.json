@@ -1,0 +1,35 @@
+{
+    "dp1":{
+        "pic":"pic/ITsKhim.png"
+    },
+    "dp2":{
+        "pic":"pic/draw9.jpg"
+    },
+    "dp3":{
+        "pic":"pic/draw1.jpg"
+    },
+    "dp4":{
+        "pic":"pic/draw2.jpg"
+    },
+    "dp5":{
+        "pic":"pic/draw3.jpg"
+    },
+    "dp6":{
+        "pic":"pic/draw4.jpg"
+    },
+    "dp7":{
+        "pic":"pic/draw5.jpg"
+    },
+    "dp8":{
+        "pic":"pic/draw6.jpg"
+    },
+    "dp9":{
+        "pic":"pic/draw7.jpg"
+    },
+    "dp10":{
+        "pic":"pic/draw8.jpg"
+    },
+    "dp11":{
+        "pic":"pic/ITsMe.png"
+    }
+}
